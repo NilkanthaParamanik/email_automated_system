@@ -28,7 +28,7 @@ def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
     # Make sure to give app access in your Google account
-    server.login('nilkanthapramanik000@gmail.com', '90310966')
+    server.login('owner,s email', 'owner,s password')
     email = EmailMessage()
     email['From'] = 'Sender_Email'
     email['To'] = receiver
@@ -38,13 +38,13 @@ def send_email(receiver, subject, message):
 
 
 email_list = {
-    'papa': 'parthoparmanik707@gmail.com',
-    'me':'nilkanthaparamanik@outlook.com',
-    'ramiz':'ramiz.hossain999@gmail.com',
-    'friend': 'sharmapravin016@gmail.com',
-    'rajak': 'rahul.rajak1817@gmail.com',
-    'pallab':'pallabsantra.senpur@gmail.com',
-    'raj':'sraj17297@gmail.com '
+    'nickname_1': 'email_address_1',
+    'nickname_2':'email_address_2',
+    'nickname_3':'email_address_3',
+    'nickname_4': 'email_address_4',
+    'nickname_5': 'email_address_5',
+    'nickname_5':'email_address_6',
+    'nickname_6':'email_address_7'
 }
 
 
